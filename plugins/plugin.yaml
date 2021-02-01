@@ -1,0 +1,14 @@
+name: plugin
+description: The plugin management system for meshctl
+versions:
+- tag: ryantking-test
+  requirements: {}
+  platforms:
+  - os: darwin
+    arch: amd64
+    uri: gloo-mesh-enterprise/meshctl-plugins/plugin/ryantking-test/meshctl-plugin-darwin-amd64
+    sha: 77df90c7b972e22046cd2cbdb2c9b46695d627065f20f7d9c801e4c20646f7f6
+  - os: linux
+    arch: amd64
+    uri: gloo-mesh-enterprise/meshctl-plugins/plugin/ryantking-test/meshctl-plugin-linux-amd64
+    sha: 1b43629e22cbe436113e5900d23a512dca34588730ba050b58f5bee5b1d15020
