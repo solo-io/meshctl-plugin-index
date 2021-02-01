@@ -1,10 +1,8 @@
 name: Update Index
 on:
   push:
-    branches:
-      - '*'
     branches-ignore:
-      - 'master'
+      - 'main'
 jobs:
   create_pr:
     name: Create Pull Request
@@ -13,9 +11,9 @@ jobs:
       - name: Check out code
         uses: actions/checkout@v2
       - name: Open Pull Request
-        uses: peter-evans/create-pull-request@v3
+        uses: repo-sync/pull-request@v2
         with:
-          branch: ${{ github.event.branch.name }}
-          delete-branch: true
-          base: main
-          title: Plugin Manifests Update
+          destination_branch: "main"
+          pr_reviewer: "solo-io/service-mesh-hub"
+          pr_title: "Plugin Index Update"
+          github_token: ${{ secrets.GITHUB_TOKEN }}
