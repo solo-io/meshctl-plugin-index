@@ -1,14 +1,17 @@
 name: plugin
 description: The plugin management system for meshctl
 versions:
-- tag: ryantking-test
-  requirements: {}
+- tag: v0.5.1
   platforms:
   - os: darwin
     arch: amd64
-    uri: https://storage.googleapis.com/gloo-mesh-enterprise/meshctl-plugins/plugin/ryantking-test/meshctl-plugin-darwin-amd64
-    sha: 70cf8eaa2b90a9aaef04563f90424244a70e02c8a7b7e57cc5aabbea8b6212fc
+    uri: https://storage.googleapis.com/gloo-mesh-enterprise/meshctl-plugins/plugin/v0.5.1/meshctl-plugin-darwin-amd64
+    sha: 21b6fbfd701654e82bef3b56e01b0310936cbb763b5ce8607846eef1bc4bb6f0
   - os: linux
     arch: amd64
-    uri: https://storage.googleapis.com/gloo-mesh-enterprise/meshctl-plugins/plugin/ryantking-test/meshctl-plugin-linux-amd64
-    sha: 6c3218da85f98078f3de06d813122267042532ab5a0cefc6ff652eca52696a54
+    uri: https://storage.googleapis.com/gloo-mesh-enterprise/meshctl-plugins/plugin/v0.5.1/meshctl-plugin-linux-amd64
+    sha: 57c036d605cc8714147644c68da104a56663e87f9d006f25917dfbd94d716d30
+  - os: windows
+    arch: amd64
+    uri: https://storage.googleapis.com/gloo-mesh-enterprise/meshctl-plugins/plugin/v0.5.1/meshctl-plugin-windows-amd64.exe
+    sha: f4904aa05da076a2a48d99487fd44a38d07b0904c3766c93b2f93349bea2cf98

@@ -1,14 +1,19 @@
 name: wasm
 description: Utility to manage gloo-mesh wasm filter deployments
 versions:
-- tag: ryantking-test
-  requirements: {}
+- tag: v0.5.1
+  requirements:
+    istio: '>= 1.8'
   platforms:
   - os: darwin
     arch: amd64
-    uri: https://storage.googleapis.com/gloo-mesh-enterprise/meshctl-plugins/wasm/ryantking-test/meshctl-wasm-darwin-amd64
-    sha: 44b395efca8ecb1bcbc0253ee2f1dcf5c0fc2d267c94d36badce1b68273e066e
+    uri: https://storage.googleapis.com/gloo-mesh-enterprise/meshctl-plugins/wasm/v0.5.1/meshctl-wasm-darwin-amd64
+    sha: 606ee0035678bb6afe604581e970eb34af1907b147962c37023d45a1f1e3a306
   - os: linux
     arch: amd64
-    uri: https://storage.googleapis.com/gloo-mesh-enterprise/meshctl-plugins/wasm/ryantking-test/meshctl-wasm-linux-amd64
-    sha: f69068ec703ca5a49d5d327dedd297ab4ba111de09365c8017c1a1cb5d74ac73
+    uri: https://storage.googleapis.com/gloo-mesh-enterprise/meshctl-plugins/wasm/v0.5.1/meshctl-wasm-linux-amd64
+    sha: e5bddb6894e693bddc481a46146ac9e52ddad6d15b6bd5febb1e005ac1875992
+  - os: windows
+    arch: amd64
+    uri: https://storage.googleapis.com/gloo-mesh-enterprise/meshctl-plugins/wasm/v0.5.1/meshctl-wasm-windows-amd64.exe
+    sha: f523a00cf1b98124e645391cee8c8e0dd4ec122f0fb6362d3d1502ca58284b09
