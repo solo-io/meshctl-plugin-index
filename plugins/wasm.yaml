@@ -1,7 +1,6 @@
 name: wasm
 description: Utility to manage Gloo Mesh wasm filter deployments
 versions:
-=======
 - tag: v1.0.0-beta5
   requirements:
     istio: '>= 1.8'
