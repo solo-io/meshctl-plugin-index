@@ -1,6 +1,18 @@
 name: wasm
 description: Utility to manage Gloo Mesh wasm filter deployments
 versions:
+- tag: v1.0.0
+  requirements:
+    istio: '>= 1.8'
+  platforms:
+  - os: darwin
+    arch: amd64
+    uri: https://storage.googleapis.com/gloo-mesh-enterprise/meshctl-plugins/wasm/v1.0.0/meshctl-wasm-darwin-amd64
+    sha: f68264ed15246810cb34483c1848ee6b1e67492d864518d21059d46d63c36efc
+  - os: linux
+    arch: amd64
+    uri: https://storage.googleapis.com/gloo-mesh-enterprise/meshctl-plugins/wasm/v1.0.0/meshctl-wasm-linux-amd64
+    sha: 5c5a542a08d78cdeed7d2eb9b5b18fadf974b9e579a7a125259c4b49d847bc85
 - tag: v1.0.0-beta16
   requirements:
     istio: '>= 1.8'
