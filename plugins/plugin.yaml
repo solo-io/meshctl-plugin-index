@@ -1,6 +1,16 @@
 name: plugin
 description: The plugin management system for meshctl
 versions:
+- tag: v1.1.0
+  platforms:
+  - os: darwin
+    arch: amd64
+    uri: https://storage.googleapis.com/gloo-mesh-enterprise/meshctl-plugins-ryantking-test/plugin/v1.1.0/meshctl-plugin-darwin-amd64
+    sha: 3a9e25797f3c7be21ba758a648d0ac877135754856ddc957d5ca70325e5a7d1d
+  - os: linux
+    arch: amd64
+    uri: https://storage.googleapis.com/gloo-mesh-enterprise/meshctl-plugins-ryantking-test/plugin/v1.1.0/meshctl-plugin-linux-amd64
+    sha: ae8ab2d814705e383f29d78cf492d0a16e6bcc3adc2629769ff3db82b671c695
 - tag: v1.0.1
   platforms:
   - os: darwin
@@ -21,6 +31,56 @@ versions:
     arch: amd64
     uri: https://storage.googleapis.com/gloo-mesh-enterprise/meshctl-plugins/plugin/v1.0.0/meshctl-plugin-linux-amd64
     sha: 0c3e25e6a2a98837feb8ec21bc6cba81f97950028acc1c7fd5da26713b590f47
+- tag: v1.0.0-beta9
+  platforms:
+  - os: darwin
+    arch: amd64
+    uri: https://storage.googleapis.com/gloo-mesh-enterprise/meshctl-plugins/plugin/v1.0.0-beta9/meshctl-plugin-darwin-amd64
+    sha: 662e0431bd9b2a0378f4c8e03d6581ab6f87173d957970b941980317472a8a06
+  - os: linux
+    arch: amd64
+    uri: https://storage.googleapis.com/gloo-mesh-enterprise/meshctl-plugins/plugin/v1.0.0-beta9/meshctl-plugin-linux-amd64
+    sha: 0092bacdb21319c939a65e8890c2593cd9b4a777bc8cae15a37872cce53c93f8
+- tag: v1.0.0-beta8
+  platforms:
+  - os: darwin
+    arch: amd64
+    uri: https://storage.googleapis.com/gloo-mesh-enterprise/meshctl-plugins/plugin/v1.0.0-beta8/meshctl-plugin-darwin-amd64
+    sha: 6eb7a469f6e025ca55ca7ec475894bc6aa0d47e9658095d3c97d20e8087e3e32
+  - os: linux
+    arch: amd64
+    uri: https://storage.googleapis.com/gloo-mesh-enterprise/meshctl-plugins/plugin/v1.0.0-beta8/meshctl-plugin-linux-amd64
+    sha: 05748186450a038d4c91894ed6474c5e7217d7af914098236450d7553c344d3b
+- tag: v1.0.0-beta5
+  platforms:
+  - os: darwin
+    arch: amd64
+    uri: https://storage.googleapis.com/gloo-mesh-enterprise/meshctl-plugins/plugin/v1.0.0-beta5/meshctl-plugin-darwin-amd64
+    sha: 2fe7bd08a64ae5a91a965d8cdda93f95c4ad4a1dd3766e714d30eeff12ab37f9
+  - os: linux
+    arch: amd64
+    uri: https://storage.googleapis.com/gloo-mesh-enterprise/meshctl-plugins/plugin/v1.0.0-beta5/meshctl-plugin-linux-amd64
+    sha: ""
+- tag: v1.0.0-beta4
+  platforms:
+  - os: darwin
+    arch: amd64
+    uri: https://storage.googleapis.com/gloo-mesh-enterprise/meshctl-plugins/plugin/v1.0.0-beta4/meshctl-plugin-darwin-amd64
+    sha: 2fe7bd08a64ae5a91a965d8cdda93f95c4ad4a1dd3766e714d30eeff12ab37f9
+  - os: linux
+    arch: amd64
+    uri: https://storage.googleapis.com/gloo-mesh-enterprise/meshctl-plugins/plugin/v1.0.0-beta4/meshctl-plugin-linux-amd64
+    sha: a5c91c320eb9a55814de195fe4c677458d004e6b44c3eb40551feae4d0c49882
+- tag: v1.0.0-beta3
+  platforms:
+  - os: darwin
+    arch: amd64
+    uri: https://storage.googleapis.com/gloo-mesh-enterprise/meshctl-plugins/plugin/v1.0.0-beta3/meshctl-plugin-darwin-amd64
+    sha: 2aa703b18263c093413add5b6b3752770bcde83f1af6740451bda0674a309125
+  - os: linux
+    arch: amd64
+    uri: https://storage.googleapis.com/gloo-mesh-enterprise/meshctl-plugins/plugin/v1.0.0-beta3/meshctl-plugin-linux-amd64
+    sha: 86e0ce537afb9610de7a54511bbcac2afeb0ab91d4f4447e9d0b509e3c6816f8
 - tag: v1.0.0-beta16
   platforms:
   - os: darwin
@@ -91,56 +151,6 @@ versions:
     arch: amd64
     uri: https://storage.googleapis.com/gloo-mesh-enterprise/meshctl-plugins/plugin/v1.0.0-beta10/meshctl-plugin-linux-amd64
     sha: a49436d86e69d44dc37f0634be5e49fb6d97bf2383758769c6d0786ec82e314d
-- tag: v1.0.0-beta9
-  platforms:
-  - os: darwin
-    arch: amd64
-    uri: https://storage.googleapis.com/gloo-mesh-enterprise/meshctl-plugins/plugin/v1.0.0-beta9/meshctl-plugin-darwin-amd64
-    sha: 662e0431bd9b2a0378f4c8e03d6581ab6f87173d957970b941980317472a8a06
-  - os: linux
-    arch: amd64
-    uri: https://storage.googleapis.com/gloo-mesh-enterprise/meshctl-plugins/plugin/v1.0.0-beta9/meshctl-plugin-linux-amd64
-    sha: 0092bacdb21319c939a65e8890c2593cd9b4a777bc8cae15a37872cce53c93f8
-- tag: v1.0.0-beta8
-  platforms:
-  - os: darwin
-    arch: amd64
-    uri: https://storage.googleapis.com/gloo-mesh-enterprise/meshctl-plugins/plugin/v1.0.0-beta8/meshctl-plugin-darwin-amd64
-    sha: 6eb7a469f6e025ca55ca7ec475894bc6aa0d47e9658095d3c97d20e8087e3e32
-  - os: linux
-    arch: amd64
-    uri: https://storage.googleapis.com/gloo-mesh-enterprise/meshctl-plugins/plugin/v1.0.0-beta8/meshctl-plugin-linux-amd64
-    sha: 05748186450a038d4c91894ed6474c5e7217d7af914098236450d7553c344d3b
-- tag: v1.0.0-beta5
-  platforms:
-  - os: darwin
-    arch: amd64
-    uri: https://storage.googleapis.com/gloo-mesh-enterprise/meshctl-plugins/plugin/v1.0.0-beta5/meshctl-plugin-darwin-amd64
-    sha: 2fe7bd08a64ae5a91a965d8cdda93f95c4ad4a1dd3766e714d30eeff12ab37f9
-  - os: linux
-    arch: amd64
-    uri: https://storage.googleapis.com/gloo-mesh-enterprise/meshctl-plugins/plugin/v1.0.0-beta5/meshctl-plugin-linux-amd64
-    sha: ""
-- tag: v1.0.0-beta4
-  platforms:
-  - os: darwin
-    arch: amd64
-    uri: https://storage.googleapis.com/gloo-mesh-enterprise/meshctl-plugins/plugin/v1.0.0-beta4/meshctl-plugin-darwin-amd64
-    sha: 2fe7bd08a64ae5a91a965d8cdda93f95c4ad4a1dd3766e714d30eeff12ab37f9
-  - os: linux
-    arch: amd64
-    uri: https://storage.googleapis.com/gloo-mesh-enterprise/meshctl-plugins/plugin/v1.0.0-beta4/meshctl-plugin-linux-amd64
-    sha: a5c91c320eb9a55814de195fe4c677458d004e6b44c3eb40551feae4d0c49882
-- tag: v1.0.0-beta3
-  platforms:
-  - os: darwin
-    arch: amd64
-    uri: https://storage.googleapis.com/gloo-mesh-enterprise/meshctl-plugins/plugin/v1.0.0-beta3/meshctl-plugin-darwin-amd64
-    sha: 2aa703b18263c093413add5b6b3752770bcde83f1af6740451bda0674a309125
-  - os: linux
-    arch: amd64
-    uri: https://storage.googleapis.com/gloo-mesh-enterprise/meshctl-plugins/plugin/v1.0.0-beta3/meshctl-plugin-linux-amd64
-    sha: 86e0ce537afb9610de7a54511bbcac2afeb0ab91d4f4447e9d0b509e3c6816f8
 - tag: v0.5.1
   platforms:
   - os: darwin
