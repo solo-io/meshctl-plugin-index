@@ -1,0 +1,15 @@
+name: release
+description: Test plugin please ignore
+versions:
+- tag: v1.2.0-alpha1
+  requirements:
+    istio: '>= 1.8'
+  platforms:
+  - os: darwin
+    arch: amd64
+    uri: https://storage.googleapis.com/gloo-mesh-enterprise/meshctl-plugins-ryantking-test/release/v1.2.0-alpha1/release-darwin-amd64
+    sha: caf3521bbe5f54675f4908ab7870ad7817b08fde1dbaa7401a46d7c08bedcf00
+  - os: linux
+    arch: amd64
+    uri: https://storage.googleapis.com/gloo-mesh-enterprise/meshctl-plugins-ryantking-test/release/v1.2.0-alpha1/release-linux-amd64
+    sha: 7fbe1c08c9206f0fd9541d2dd99fd8e111e4474b3446d9ee5fddd11efd8fd94e
