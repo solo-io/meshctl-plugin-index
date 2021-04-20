@@ -1,6 +1,16 @@
 name: plugin
 description: The plugin management system for meshctl
 versions:
+- tag: v1.0.5
+  platforms:
+  - os: darwin
+    arch: amd64
+    uri: https://storage.googleapis.com/gloo-mesh-enterprise/meshctl-plugins/plugin/v1.0.5/meshctl-plugin-darwin-amd64
+    sha: 05d736153017b1dc71a485c9c5e7aff481317500b0b2bc7904d01f403ea018d7
+  - os: linux
+    arch: amd64
+    uri: https://storage.googleapis.com/gloo-mesh-enterprise/meshctl-plugins/plugin/v1.0.5/meshctl-plugin-linux-amd64
+    sha: a7a83235d945d33f55c16d33906f6ca0657d01c591c69746d61433f8a5dd2ad8
 - tag: v1.1.0-beta1
   platforms:
   - os: darwin
