@@ -1,6 +1,16 @@
 name: accesslog
 description: View access logs collected by Gloo Mesh
 versions:
+- tag: v1.1.0-beta3
+  platforms:
+  - os: darwin
+    arch: amd64
+    uri: https://storage.googleapis.com/gloo-mesh-enterprise/meshctl-plugins/accesslog/v1.1.0-beta3/meshctl-accesslog-darwin-amd64
+    sha: 69967aed5e94c2cf386d6f636d728e5d65bb53e9e45fcd617e2531cb523732a5
+  - os: linux
+    arch: amd64
+    uri: https://storage.googleapis.com/gloo-mesh-enterprise/meshctl-plugins/accesslog/v1.1.0-beta3/meshctl-accesslog-linux-amd64
+    sha: 290216dccf096b81a57079a33796d20d8a2774232539da45c87a6bfa003b95ca
 - tag: v1.0.5
   platforms:
   - os: darwin
