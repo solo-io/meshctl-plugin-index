@@ -51,6 +51,16 @@ versions:
     arch: amd64
     uri: https://storage.googleapis.com/gloo-mesh-enterprise/meshctl-plugins/accesslog/v1.1.0-beta3/meshctl-accesslog-linux-amd64
     sha: 290216dccf096b81a57079a33796d20d8a2774232539da45c87a6bfa003b95ca
+- tag: v1.1.0-beta12
+  platforms:
+  - os: darwin
+    arch: amd64
+    uri: https://storage.googleapis.com/gloo-mesh-enterprise/meshctl-plugins/accesslog/v1.1.0-beta12/accesslog-darwin-amd64
+    sha: 0ea08cd1588ca4d5ae9f8efe83a6e1857924af237880a81c9933122084c32a88
+  - os: linux
+    arch: amd64
+    uri: https://storage.googleapis.com/gloo-mesh-enterprise/meshctl-plugins/accesslog/v1.1.0-beta12/accesslog-linux-amd64
+    sha: 0900eb358bd09a004fd0692a1daa486839fe47f9ce1c0d9569b2cde5aa64a36e
 - tag: v1.1.0-beta11
   platforms:
   - os: darwin
