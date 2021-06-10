@@ -60,6 +60,15 @@ versions:
   - os: linux
     arch: amd64
     uri: https://storage.googleapis.com/gloo-mesh-enterprise/meshctl-plugins/plugin/v1.1.0-beta13/plugin-linux-amd64
+- tag: v1.1.0-beta12
+  platforms:
+  - os: darwin
+    arch: amd64
+    uri: https://storage.googleapis.com/gloo-mesh-enterprise/meshctl-plugins/plugin/v1.1.0-beta12/plugin-darwin-amd64
+    sha: f9935b8fdd6b854a42ef11d06efcfc28e9bfbab63c9a9692d6db5dceb16bd211
+  - os: linux
+    arch: amd64
+    uri: https://storage.googleapis.com/gloo-mesh-enterprise/meshctl-plugins/plugin/v1.1.0-beta12/plugin-linux-amd64
     sha: 293d629484e40815f33eae96e15e071d270668e3b508f71c6a8a68e5e6f5e5c6
 - tag: v1.1.0-beta11
   platforms:
