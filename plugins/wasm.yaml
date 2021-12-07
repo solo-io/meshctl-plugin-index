@@ -61,6 +61,18 @@ versions:
     arch: amd64
     uri: https://storage.googleapis.com/gloo-mesh-enterprise/meshctl-plugins/wasm/v1.3.0-beta1/wasm-linux-amd64
     sha: f0b6f25145eef802380c97f600fa9c9271b167cec839da186b7754a046b39397
+- tag: v1.2.6
+  requirements:
+    istio: '>= 1.8'
+  platforms:
+  - os: darwin
+    arch: amd64
+    uri: https://storage.googleapis.com/gloo-mesh-enterprise/meshctl-plugins/wasm/v1.2.6/wasm-darwin-amd64
+    sha: 294166f77331ed8c19227b6d469e73b65d5a02c0b64435ffea463ca8be9e8687
+  - os: linux
+    arch: amd64
+    uri: https://storage.googleapis.com/gloo-mesh-enterprise/meshctl-plugins/wasm/v1.2.6/wasm-linux-amd64
+    sha: 0a23d6af7510023c8983dc296e25dcee5df907eb516cb92bad63eb79cdcd5aea
 - tag: v1.2.5
   requirements:
     istio: '>= 1.8'
